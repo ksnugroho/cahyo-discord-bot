@@ -16,9 +16,9 @@ async def on_message(message):
     if message.author == client.user:
         return
     if message.content.startswith('$halo'):
-        await message.channel.send("Hi!")
+        await message.channel.send("Hi! Saya adalah Cahyo Bot!. Apa yang bisa saya bantu???")
     elif message.content.startswith('$bye'):
-        await message.channel.send("\\U0001f642")
+        await message.channel.send("Sampai jumpa lagi, senang bertemu dengan mu!")
     else:
         await message.channel.send(message.content)
 
